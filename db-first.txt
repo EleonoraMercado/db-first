@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh6120\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario\
+\
+macchine_usate\
+\
+Nome colonna				Tipo					Attributi                                           Indici							\
+Id						int					AUTO_INCREMENT                     primary key\
+marca					varchar(50)                     not null\
+Modello					varchar(50)			not null\
+allestimenti				varchar(20)			not null\
+anno_produzione			year					not null\
+Targa					int					not null\
+chilometri					decimal				not null\
+colore_carrozzeria			varchar(50)			not null\
+colore_interni				varchar(50)			not null\
+materiale_interni			varchar(50)			not null\
+carburante				varchar(9)			not null\
+cilindrata					int					not null\
+cambio_manuale			tinyint				not null\
+numero_porte				int					not null\
+numero_proprietari			int					not null\
+difetti 					text					null\
+prezzo					decimal				not null\
+tipo_trazione				varchar(10)			not null\
+posti_sedere				int					not null\
+tagliandi					text					not null\
+tipologia_veicolo			varchar(20)			not null\
+potenza_cv_kw			int					not null\
+distribuzione				varchar(4)			not null\
+manutenzione				text					not null\
+opzional					text					null\
+classe_emissioni			varchar(20)			not null\
+\
+Note: Ho inserito pi\'f9 o meno tutti i dati fondamentali che secondo me si dovrebbero sapere di un auto in generale, ma sopratutto usata,\
+Ho inserito quasi tutto not null perch\'e9 credo sia importante che ci siano quasi tutte le informazioni dell\'92auto. \
+La scelta del null l\'92ho fatta solo per quei dati che secondo me non necessariamente hanno tutte le macchine.\
+\
+\
+}
